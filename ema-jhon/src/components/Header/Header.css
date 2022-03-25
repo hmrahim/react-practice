@@ -1,0 +1,38 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 auto;
+   
+    padding: 10px 20px;
+    background-color: #1C2B35;
+    align-items: center;
+
+}
+
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-section{
+    display: flex;
+    justify-content: center;
+}
+.menu-section ul{
+    display: flex;
+    list-style: none;
+}
+.menu-section ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+}
+.menu-section ul li a:hover{
+    color: orangered;
+}
+    
